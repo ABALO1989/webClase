@@ -90,11 +90,18 @@ ul{
     width: 350px;
     height: 240px;
     display: flex;
+    margin-bottom: 10px;
 }
 
 .contenedorImagen > img {
     object-fit: cover;
     width: 100%;
+    border-radius: 10px;
+}
+
+.contenedorImagen:hover{
+    cursor:pointer;
+    transform: scale(1.1);
 
 }
 
@@ -104,5 +111,17 @@ ul{
 
 .breedCard{
     margin: 10px;
+    background-color: gray;
+    box-shadow: 5px 5px rgb(196, 195, 195);
+    border-radius: 10px;
+
+}
+
+.breedTitle{
+    color:white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
 
 }
