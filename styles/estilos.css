@@ -28,3 +28,20 @@ ul{
     transform: scale(1.1);
     box-shadow: 2px 1px green;
 }
+
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.buscar:focus-within{
+    border: 1px solid blue;
+}
+
+.buscar > input {
+    outline:none;
+    border: 0px;
+}
+    
