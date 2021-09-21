@@ -125,3 +125,10 @@ ul{
     text-align: center;
 
 }
+
+.social{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px;
+}
