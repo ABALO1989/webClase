@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(187, 179, 179);
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+
+.navbar > li{
+    display: flex;
+    align-items: center;
+}
+
+
+.buscar{
+    background-color: white; 
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.buscar:focus-within{
+    border: 1px solid blueviolet;
+
+}
+
+.buscar > input{
+    border: 0px;
+    outline: none;
+}
+
+.logo {
+    height: 200px;
+    padding:5px;
+
+}  
+
+
+.button {
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.button:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+.mainButton{
+    background-color:yellowgreen;
+    color: white;
+}
+
+.mainButton:hover{
+    box-shadow: 2px 1px green;
+
+} 
+
+
+.secondaryButton{
+    background-color: skyblue;
+    color: white;
+}
+
+.secondaryButton:hover{
+    box-shadow: 2px 1px rgb(0, 174, 255);
+}
+
+
+.iconoBusqueda:hover{
+    color: indigo;
+}
+
+
