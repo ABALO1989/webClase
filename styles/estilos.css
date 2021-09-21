@@ -23,10 +23,6 @@ ul{
     align-items:center;
 }
 
-
-    
-
-
 .buscar{
     background-color: white; 
     border: 1px solid gray;
@@ -47,7 +43,7 @@ ul{
 }
 
 .logo {
-    height: 200px;
+    height: 100px;
     padding:5px;
 
 }  
