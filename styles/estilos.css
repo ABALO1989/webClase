@@ -20,7 +20,11 @@ ul{
 .navbar > li{
     display: flex;
     align-items: center;
+    align-items:center;
 }
+
+
+    
 
 
 .buscar{
@@ -85,5 +89,6 @@ ul{
 .iconoBusqueda:hover{
     color: indigo;
 }
+
 
 
