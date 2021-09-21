@@ -119,10 +119,11 @@ ul{
 
 .breedTitle{
     color:white;
-    margin: 10px;
+    margin: 20px;
     font-weight: bold;
     font-size: x-large;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -131,4 +132,26 @@ ul{
     justify-content: space-between;
     align-items: flex-end;
     margin: 20px;
+}
+
+.fa-heart{
+    color:rgba(255, 0, 0, 0.438);
+}
+
+.fa-comment, .fa-eye{
+    color:white;
+}
+
+.breedCardText{
+    color: white;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:grey;
+    text-transform:uppercase;
 }
