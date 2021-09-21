@@ -38,15 +38,37 @@ ul{
 .mainButton{
     background-color:yellowgreen;
     color: white;
+}
+
+.button {
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
 }
 
-.mainButton:hover{
+.button:hover{
     cursor:pointer;
     transform: scale(1.1);
+}
+
+.mainButton{
+    background-color:yellowgreen;
+    color: white;
+}
+
+.mainButton:hover{
     box-shadow: 2px 1px green;
 
 } 
+
+
+.secondaryButton{
+    background-color: skyblue;
+    color: white;
+}
+
+.secondaryButton:hover{
+    box-shadow: 2px 1px rgb(0, 174, 255);
+}
+
