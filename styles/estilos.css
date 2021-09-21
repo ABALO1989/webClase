@@ -86,5 +86,23 @@ ul{
     color: indigo;
 }
 
+.contenedorImagen{
+    width: 350px;
+    height: 240px;
+    display: flex;
+}
 
+.contenedorImagen > img {
+    object-fit: cover;
+    width: 100%;
 
+}
+
+.breedCardContainer {
+    display: flex;
+}
+
+.breedCard{
+    margin: 10px;
+
+}
