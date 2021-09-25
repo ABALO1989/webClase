@@ -33,41 +33,37 @@ function App() {
     <section>
         <h2>Razas de perros</h2>
         <ul className="breedCardContainer">
-            <li className="breedCard">
-                <div className="contenedorImagen">
-                <img src={borderCollier}  alt="Border Colli"/>
-                </div>
-                <span className="breedTitle">Collie</span>
-                <ul className="social">
-                    <li><i className="fas fa-heart"></i> 
-                        <span className="breedCardText">150</span></li>
-                    <li><i className="fas fa-comment"></i> 
-                        <span className="breedCardText">1.5k</span></li>
-                    <li><i className="fas fa-eye"></i> 
-                        <span className="breedCardText">120</span></li>
-                </ul>
-            </li>
-            <li className="breedCard">
-                <div className="contenedorImagen">
-                <img src={rodhesian}  alt="Rodesiano"/>
-                </div>
-                <span className="breedTitle">Rhodesian </span>
-                <ul className="social">
-                    <li><i className="fas fa-heart"></i> 
-                        <span className="breedCardText">450</span></li>
-                    <li><i className="fas fa-comment"></i> 
-                        <span className="breedCardText">1.1k</span></li>
-                    <li><i className="fas fa-eye"></i> 
-                        <span className="breedCardText">850</span></li>
-                </ul>
-            </li>
+           <CardRazaPerros nombreRaza='Border Collie' imagenRaza= {borderCollier} color= 'breedCardRojo' likes="150" comentarios="60" vista= "1500"/>
+           <CardRazaPerros nombreRaza='Rhodesian' imagenRaza= {rodhesian} color= 'breedCardVerde' likes="150" comentarios="80" vista= "800" /> 
         </ul>
     </section>
     <section></section>
-    <footer></footer> 
+    <footer>
+        </footer> 
     </main>
     </div>
   );
+}
+
+function CardRazaPerros (props){
+    return (
+        <li className="breedCard">
+            <div className= {props.color}>
+                <div className="contenedorImagen">
+                <img src= {props.imagenRaza}  alt={props.nombreRaza}/>
+                </div>
+                <span className="breedTitle"> {props.nombreRaza} </span>
+                <ul className="social">
+                    <li><i className="fas fa-heart"></i> 
+                        <span className="breedCardText">{props.likes}</span></li>
+                    <li><i className="fas fa-comment"></i> 
+                        <span className="breedCardText">{props.comentarios}</span></li>
+                    <li><i className="fas fa-eye"></i> 
+                        <span className="breedCardText">{props.vista}</span></li>
+                </ul>
+            </div>
+        </li>
+    );
 }
 
 export default App;

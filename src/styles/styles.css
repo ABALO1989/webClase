@@ -155,3 +155,18 @@ h2{
   color:grey;
   text-transform:uppercase;
 }
+
+.breedCardRojo{
+  margin: 10px;
+  background-color:darkseagreen;
+  box-shadow: 5px 5px rgb(196, 195, 195);
+  border-radius: 10px;
+}
+
+  .breedCardVerde{
+    margin: 10px;
+    background-color:lightcoral;
+    box-shadow: 5px 5px rgb(196, 195, 195);
+    border-radius: 10px;
+
+  }
