@@ -39,9 +39,8 @@ function Index(){
         </ul>
     </section>
     <section></section>
-    <footer>
-        </footer> 
     </main>
+    <footer></footer> 
     </div>
     )
 }
