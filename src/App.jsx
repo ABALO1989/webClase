@@ -7,6 +7,7 @@ import './styles/styles.css';
 import Layout from 'layouts/Layout';
 import BorderCollie from 'pages/borderCollie';
 import FrenchPoddle from 'pages/frenchPoddle';
+import Contacto from 'pages/contacto';
 
 
 
@@ -25,6 +26,9 @@ function App() {
             </Route>
             <Route path='/frenchPoddle'>
               <FrenchPoddle />
+            </Route>
+            <Route path='/contacto'>
+              <Contacto />
             </Route>
             <Route path='/'>
               <Index />
