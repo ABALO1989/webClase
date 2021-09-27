@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 
-function CardRazaPerros({ nombreRaza, imagenRaza, color, likes, comentarios, vista }) {
+function CardRazaPerros({ nombreRaza, imagenRaza, color, likes, comentarios, vista, link }) {
     return (
         <li className="breedCard">
             <div className={color}>
-                <Link to='/rhodesian'>x
+                <Link to= {link}>
                     <div className="contenedorImagen">
                         <img src={imagenRaza} alt={nombreRaza} />
                     </div>
@@ -22,5 +22,6 @@ function CardRazaPerros({ nombreRaza, imagenRaza, color, likes, comentarios, vis
         </li>
     );
 }
+
 
 export default CardRazaPerros;
