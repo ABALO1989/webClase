@@ -23,6 +23,24 @@ ul{
   align-items:center;
 }
 
+
+.mainContaniner{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContaniner> main {
+  height: 100%;
+}
+
+.mainContaniner> footer {
+  background-color:royalblue;
+  padding: 20px;
+}
+
+
+
 .buscar{
   background-color: white; 
   border: 1px solid gray;
