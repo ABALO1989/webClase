@@ -1,13 +1,15 @@
-import 'bootstrap/dist/css/bootstrap.css';
+
+
 
 function RhodesianInfoPage() {
     return (
         <div>Informacion Rhodesian
-           <section>
-           <button type="button" class="btn btn-secondary">Secondary</button>
-           <button type="button" class="btn btn-primary">Primary</button>
-            </section> 
-            
+            <section className='botones'>
+            {/*Uso Boostrap*/}
+                <button type="button" className="btn btn-secondary">Adoptar</button>
+                <button type="button" className="btn btn-primary">Donar</button>
+            </section>
+
         </div>
 
     );

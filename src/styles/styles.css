@@ -1,3 +1,9 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0px;
 }
@@ -191,4 +197,13 @@ h2{
     box-shadow: 5px 5px rgb(196, 195, 195);
     border-radius: 10px;
 
+  }
+
+  .botones {
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  .boton2 {
+    @apply border-2 border-blue-900 bg-green-200 text-gray-800 hover:bg-pink-500 rounded-lg shadow-lg;
   }
