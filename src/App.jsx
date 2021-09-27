@@ -2,9 +2,11 @@
 import Index from 'pages';
 import RhodesianInfoPage from 'pages/rhodesian';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.css';
 import './styles/styles.css';
 import Layout from 'layouts/Layout';
 import BorderCollie from 'pages/borderCollie';
+
 
 
 
