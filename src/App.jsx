@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './styles/styles.css';
 import Layout from 'layouts/Layout';
 import BorderCollie from 'pages/borderCollie';
+import FrenchPoddle from 'pages/frenchPoddle';
 
 
 
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route path='/borderCollie'>
               <BorderCollie />
+            </Route>
+            <Route path='/frenchPoddle'>
+              <FrenchPoddle />
             </Route>
             <Route path='/'>
               <Index />
