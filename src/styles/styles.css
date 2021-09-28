@@ -13,7 +13,7 @@ ul{
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background-color: rgb(187, 179, 179);
+  background-color: rgb(182, 178, 178);
   border-bottom: 1px solid gray;
   box-shadow: 1px 1px gray;
 }
@@ -65,11 +65,10 @@ ul{
 }
 
 .logo {
-  height: 100px;
+  height: 70px;
   padding:5px;
 
 }  
-
 
 .button {
   border: 0px;
@@ -203,9 +202,3 @@ h2{
     @apply border-2 border-blue-900 bg-green-200 text-gray-800 hover:bg-pink-500 rounded-lg shadow-lg;
   }
 
-  form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }

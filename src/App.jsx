@@ -4,6 +4,7 @@ import RhodesianInfoPage from 'pages/rhodesian';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/styles.css';
+import 'styles/stylesContact.css'
 import Layout from 'layouts/Layout';
 import BorderCollie from 'pages/borderCollie';
 import FrenchPoddle from 'pages/frenchPoddle';
